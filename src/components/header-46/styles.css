@@ -1,0 +1,50 @@
+header {
+
+    padding: 112px 64px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header-text h1 {
+    line-height: 120%;
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+.header-text p {
+    line-height: 150%;
+    font-size: 18px;
+
+}
+
+@media (max-width: 375px) {
+    header {
+        
+        height: 100%;
+        width: 375px;
+        padding: 64px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .header-text h1 {
+        line-height: 120%;
+        width: 335px;
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+
+    }
+
+    .header-text p {
+        line-height: 150%;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        width: 335px;
+
+    }
